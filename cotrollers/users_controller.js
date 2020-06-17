@@ -7,7 +7,7 @@ module.exports.home =function(req,res){
 module.exports.profile = function(req,res){
     res.render('users',{
         title:"Profile",
-        user:User
+        // user:User
     });
 }
 module.exports.signUp = function(req,res){
